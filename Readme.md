@@ -17,6 +17,24 @@ A simulação é composta por 3 containers:
 
 ---
 
+## 🧱 Ambiente Virtual
+
+Todo o ambiente do NetLab é executado dentro de uma **máquina virtual provisionada com Vagrant**, garantindo isolamento e reprodutibilidade.  
+
+### 🔹 Pré-requisitos
+- [Vagrant](https://www.vagrantup.com/)
+- [VirtualBox](https://www.virtualbox.org/) ou outro provedor compatível
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/)
+
+### 🔹 Inicialização do ambiente
+
+```bash
+vagrant up
+vagrant ssh
+```
+---
+
 ## 🚀 Tecnologias Utilizadas
 
 - Docker e Docker Compose  
